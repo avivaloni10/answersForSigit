@@ -1,0 +1,55 @@
+git init
+git config --global user.name 'Aviv Aloni'
+git config --global user.email 'avivaloni10@gmail.com'
+touch README.md
+git add README.md
+git commit -m 'README file added'
+git branch t1
+git checkout t1
+git add t1.py
+git commit -m 't1.py file added'
+git checkout master
+git merge t1
+git branch t2
+git checkout t2
+git add t2.py
+git commit -m 't2.py file added'
+git checkout master
+git merge t2
+git branch t3
+git checkout t3
+git add t3.py
+git commit -m 't3.py file added'
+git checkout master
+git merge t3
+git branch t4
+git checkout t4
+git add t4.py
+git commit -m 't4.py file added'
+git checkout master
+git merge t4
+git branch t5
+git checkout t5
+git add t5.py
+git commit -m 't5.py file added'
+git checkout master
+git merge t5
+git branch t6
+git checkout t6
+git add t6.py
+git commit -m 't6.py file added'
+git checkout master
+git merge t6
+git branch t7
+git checkout t7
+git add t7.py
+git commit -m 't7.py file added'
+git checkout master
+git merge t7
+git remote add origin https://github.com/Avivaloni/answersForSigit.git
+git push -u origin master
+git pull
+touch gitCommands.txt
+git add gitCommands.txt
+git commit -m 'gitCommands.txt file added for you to see the git commands'
+git push
